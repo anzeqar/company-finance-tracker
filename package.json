@@ -1,0 +1,22 @@
+{
+  "name": "company-finance-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "nodemon server",
+    "client": "npm start --prefix react",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "anzeqar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.13"
+  }
+}
